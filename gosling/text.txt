@@ -1,0 +1,2 @@
+new_str = 'rtgtrgtrh' + old_str
+a = 2 + 1
