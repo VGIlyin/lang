@@ -1,2 +1,6 @@
-new_str = 'rtgtrgtrh' + old_str
-a = 2 + 1
+while (a < 2)
+    a = 4
+    if (true)
+        a = 2
+    end
+end
