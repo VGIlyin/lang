@@ -1,4 +1,4 @@
-# Install script for directory: /home/vilyin/Projects/MIREA_lang/gosling
+# Install script for directory: /home/vilyin/Projects/MIREA_lang/asd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

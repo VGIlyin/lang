@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 
 	std::fstream file;
-	file.open("/home/vilyin/Projects/MIREA_lang/gosling/text.txt");
+	file.open("/home/vilyin/Projects/MIREA_lang/asd/text.txt");
 
 	if (file.is_open()) {
 		// Лексер
