@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 
 	std::fstream file;
-	file.open("/home/sergei/CLionProjects/gosling/text.txt");
+	file.open("/home/vilyin/Projects/MIREA_lang/gosling/text.txt");
 
 	if (file.is_open()) {
 		// Лексер
@@ -35,24 +35,6 @@ int main(int argc, char *argv[]) {
 	} else {
 		std::cout << "файл c кодом не найден\n";
 	}
-
-	/*
-	Lexer::run(std::string("new_str = 'stringa' + old_str"));
-
-	std::list<Token>::iterator it_tokens = Lexer::get_list_token().begin();
-
-	for (;it_tokens != Lexer::get_list_token().end(); ++it_tokens) {
-		std::cout << *it_tokens << '\n';
-	}
-
-	*/
-
-	/*
-	for (int i = 0; i < argc; i++) {
-		Lexer::run(std::string(argv[i]));
-	}
-
-	*/
 
 	return 0;
 }

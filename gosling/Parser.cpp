@@ -65,7 +65,7 @@ bool Parser::check() {
 	// mylist.add(1)
 	// mylist.get(0)
 
-	std::list<Token>::iterator it = p_tokens->begin();
+	auto it = p_tokens->begin();
 
 	bool result = true;
 

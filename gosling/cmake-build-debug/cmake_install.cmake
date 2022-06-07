@@ -1,4 +1,4 @@
-# Install script for directory: /home/sergei/CLionProjects/gosling
+# Install script for directory: /home/vilyin/Projects/MIREA_lang/gosling
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sergei/CLionProjects/gosling/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vilyin/Projects/MIREA_lang/gosling/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -5,7 +5,7 @@
 #include <string>
 #include <regex>
 #include "token.h"
-//#include "/home/sergei/CLionProjects/list_mv/list_mv.h" // мой лист
+//#include "/home/vilyin/Projects/MIREA_lang/list_mv/list_mv.h" // мой лист
 
 class Lexer {
 private:
